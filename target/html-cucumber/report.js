@@ -448,4 +448,1243 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/java/features/Home.feature");
+formatter.feature({
+  "name": "To verify Categories",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.background({
+  "name": "Launch the application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_launch_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To check list of tablets in Antipyretics with Product info",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.step({
+  "name": "I cick on Antipyretics",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "HomeSteps.i_cick_on_antipyretics()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify table List",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomeSteps.i_verify_table_list()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Launch the application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_launch_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To check list of tablets in Analgesics with Product info",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.step({
+  "name": "I cick on Analgesics",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "HomeSteps.i_cick_on_analgesics()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify table List",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomeSteps.i_verify_table_list()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Launch the application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_launch_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To check list of tablets in Antibiotics with Product info",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click on Antibiotics",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "HomeSteps.i_click_on_antibiotics()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify table List",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomeSteps.i_verify_table_list()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/java/features/LoginUser.feature");
+formatter.feature({
+  "name": "User Login",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "To login as a user",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "I click on homepage Login",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I enter username \"\u003cuserName\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I enter password \"\u003cpassWord\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on Login",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I cick on username",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I click on Logout",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "userName",
+        "passWord"
+      ]
+    },
+    {
+      "cells": [
+        "kn@gmail.com",
+        "12345"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To login as a user",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_launch_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on homepage Login",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_homepage_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter username \"kn@gmail.com\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_username(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter password \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Login",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I cick on username",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_cick_on_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Logout",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_logout()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/java/features/RegisterAdmin.feature");
+formatter.feature({
+  "name": "Admin Registration",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "To register as a user",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "I click on homepage Login",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I click Register Here link",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Personal page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I enter first name \"\u003cfirstName\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter last name \"\u003clastName\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter email \"\u003cemail\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter contact number \"\u003ccontactNum\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter signup password \"\u003cpassWord\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter confirm password \"\u003cconfirmPassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I select role",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on NextBilling",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Address page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I enter address line1 \"\u003caddrLineOne\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter address line2 \"\u003caddrLineTwo\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter city \"\u003ccity\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter postal code \"\u003cpostalCode\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter state \"\u003cstate\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter country \"\u003ccountry\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on NextConfirm",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I verify personalDetails displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I verify billingaddress displayed",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on Confirm",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Welcome page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I click on LoginHere",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "firstName",
+        "lastName",
+        "email",
+        "contactNum",
+        "passWord",
+        "confirmPassword",
+        "addrLineOne",
+        "addrLineTwo",
+        "city",
+        "postalCode",
+        "state",
+        "country"
+      ]
+    },
+    {
+      "cells": [
+        "Jagan",
+        "GD",
+        "jagan15@testmail.com",
+        "9517534682",
+        "12345",
+        "12345",
+        "St Marks Road",
+        "Shivajinagar",
+        "Bangalore",
+        "560045",
+        "Karnataka",
+        "India"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To register as a user",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_launch_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on homepage Login",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_homepage_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click Register Here link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_register_here_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Personal page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_should_be_landed_on_the_sign_up_personal_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter first name \"Jagan\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_first_name(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter last name \"GD\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_last_name(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter email \"jagan15@testmail.com\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_email(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter contact number \"9517534682\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_contact_number(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter signup password \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_signup_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter confirm password \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_confirm_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I select role",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_select_role()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on NextBilling",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_next_billing()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Address page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_should_be_landed_on_the_sign_up_address_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter address line1 \"St Marks Road\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_address_line1(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter address line2 \"Shivajinagar\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_address_line2(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter city \"Bangalore\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_city(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter postal code \"560045\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_postal_code(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter state \"Karnataka\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_state(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter country \"India\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_country(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on NextConfirm",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_next_confirm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify personalDetails displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_verify_personal_details_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify billingaddress displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_verify_billingaddress_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Confirm",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_confirm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Welcome page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_should_be_landed_on_the_welcome_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on LoginHere",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_login_here()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/java/features/RegisterUser.feature");
+formatter.feature({
+  "name": "User Registration",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "To register as a user",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "I click on homepage Login",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I click Register Here link",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Personal page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I enter first name \"\u003cfirstName\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter last name \"\u003clastName\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter email \"\u003cemail\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter contact number \"\u003ccontactNum\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter signup password \"\u003cpassWord\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter confirm password \"\u003cconfirmPassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on NextBilling",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Address page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I enter address line1 \"\u003caddrLineOne\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter address line2 \"\u003caddrLineTwo\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter city \"\u003ccity\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter postal code \"\u003cpostalCode\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter state \"\u003cstate\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I enter country \"\u003ccountry\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on NextConfirm",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I verify personalDetails displayed",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I verify billingaddress displayed",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on Confirm",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Welcome page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "I click on LoginHere",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "firstName",
+        "lastName",
+        "email",
+        "contactNum",
+        "passWord",
+        "confirmPassword",
+        "addrLineOne",
+        "addrLineTwo",
+        "city",
+        "postalCode",
+        "state",
+        "country"
+      ]
+    },
+    {
+      "cells": [
+        "Jagan",
+        "GD",
+        "jagan12@testmail.com",
+        "9517534682",
+        "12345",
+        "12345",
+        "St Marks Road",
+        "Shivajinagar",
+        "Bangalore",
+        "560045",
+        "Karnataka",
+        "India"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "To register as a user",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I launch the URL",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_launch_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on homepage Login",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_homepage_login()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click Register Here link",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_register_here_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Personal page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_should_be_landed_on_the_sign_up_personal_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter first name \"Jagan\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_first_name(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter last name \"GD\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_last_name(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter email \"jagan12@testmail.com\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_email(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter contact number \"9517534682\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_contact_number(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter signup password \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_signup_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter confirm password \"12345\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_confirm_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on NextBilling",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_next_billing()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the SignUp_Address page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_should_be_landed_on_the_sign_up_address_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter address line1 \"St Marks Road\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_address_line1(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter address line2 \"Shivajinagar\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_address_line2(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter city \"Bangalore\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_city(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter postal code \"560045\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_postal_code(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter state \"Karnataka\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_state(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter country \"India\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_enter_country(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on NextConfirm",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_next_confirm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify personalDetails displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_verify_personal_details_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify billingaddress displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RegisterSteps.i_verify_billingaddress_displayed()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Confirm",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_confirm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Welcome page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterSteps.i_should_be_landed_on_the_welcome_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on LoginHere",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RegisterSteps.i_click_on_login_here()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be landed on the Login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_landed_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });

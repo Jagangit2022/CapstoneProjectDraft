@@ -1,3 +1,5 @@
+@Sanity
+
 Feature: Admin Registration
 
   Scenario Outline: To register as a user
@@ -33,4 +35,4 @@ Feature: Admin Registration
 
     Examples: 
       | firstName | lastName | email             | contactNum | passWord | confirmPassword |addrLineOne|addrLineTwo|city|postalCode|state|country|
-      | Jagan     | GD       | jagan15@testmail.com | 9517534682 |12345|12345|St Marks Road|Shivajinagar|Bangalore|560045|Karnataka|India|
+      | Jagan     | GD       | jagan16@testmail.com | 9517534682 |12345|12345|St Marks Road|Shivajinagar|Bangalore|560045|Karnataka|India|

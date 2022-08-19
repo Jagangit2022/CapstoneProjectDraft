@@ -1,3 +1,5 @@
+@Sanity
+
 Feature: User Login
 
   Scenario Outline: To login as a user

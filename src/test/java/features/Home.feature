@@ -1,3 +1,5 @@
+@Sanity
+
 Feature: To verify Categories
 
 	Background: Launch the application
