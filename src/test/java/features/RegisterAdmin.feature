@@ -35,4 +35,4 @@ Feature: Admin Registration
 
     Examples: 
       | firstName | lastName | email             | contactNum | passWord | confirmPassword |addrLineOne|addrLineTwo|city|postalCode|state|country|
-      | Jagan     | GD       | jagan18@testmail.com | 9517534682 |12345|12345|St Marks Road|Shivajinagar|Bangalore|560045|Karnataka|India|
+      | Jagan     | GD       | jagan19@testmail.com | 9517534682 |12345|12345|St Marks Road|Shivajinagar|Bangalore|560045|Karnataka|India|

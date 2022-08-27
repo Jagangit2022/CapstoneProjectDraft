@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-       <dependency>
+    <dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
 	    <version>3.141.59</version>
@@ -14,14 +14,13 @@
 	    <groupId>io.cucumber</groupId>
 	    <artifactId>cucumber-java8</artifactId>
 	    <version>4.5.4</version>
-	    
+	</dependency>
 	<dependency>
 	    <groupId>info.cukes</groupId>
 	    <artifactId>gherkin</artifactId>
 	    <version>2.12.2</version>
 	</dependency>
-	</dependency>
-		<dependency>
+	<dependency>
 	    <groupId>io.cucumber</groupId>
 	    <artifactId>cucumber-core</artifactId>
 	    <version>4.5.4</version>
@@ -37,7 +36,6 @@
 	    <artifactId>cucumber-junit</artifactId>
 	    <version>4.5.4</version>
 	</dependency>
-
 	<dependency>
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
@@ -50,13 +48,11 @@
 	    <artifactId>rest-assured</artifactId>
 	    <version>4.3.1</version>
 	</dependency>
-	
 	<dependency>
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>json-path</artifactId>
 	    <version>4.3.1</version>
 	</dependency>
-	
 	<dependency>
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>json-schema-validator</artifactId>
