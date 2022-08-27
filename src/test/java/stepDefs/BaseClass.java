@@ -11,7 +11,7 @@ import io.cucumber.java.Before;
 public class BaseClass {
 	
 	public static WebDriver driver;
-	
+
 	@Before
 	public void setUp() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");

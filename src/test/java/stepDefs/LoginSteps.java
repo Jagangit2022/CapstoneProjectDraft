@@ -1,5 +1,6 @@
 package stepDefs;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import junit.framework.Assert;
+
 
 public class LoginSteps {
 	
@@ -50,7 +51,7 @@ public class LoginSteps {
 		eleLogin.click();
 	}
 	
-	@SuppressWarnings("deprecation")
+
 	@Then("I should be landed on the Home page")
 	public void i_should_be_landed_on_the_home_page() {
 		WebElement eleLoginUser = driver.findElement(By.linkText("Kavita Nigam"));

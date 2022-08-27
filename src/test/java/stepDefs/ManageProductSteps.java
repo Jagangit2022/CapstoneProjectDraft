@@ -4,6 +4,7 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import junit.framework.Assert;
+
 
 public class ManageProductSteps {
 	
@@ -22,7 +23,7 @@ public class ManageProductSteps {
 	public void i_should_be_landed_on_the_Admin_home_page() {
 		WebElement eleLoginUser = driver.findElement(By.linkText("Vikas Kashyap"));
 		String LoginUser = eleLoginUser.getText();
-		//Assert.assertEquals("Kavita Nigam", LoginUser);
+		Assert.assertEquals("Kavita Nigam", LoginUser);
 		System.out.println(LoginUser);
 	}
 	@When("I click on Manage Product")

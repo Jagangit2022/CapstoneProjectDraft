@@ -122,6 +122,59 @@ public class HomeSteps {
 		}
 	}
 	
+	@When("I check for tablets from the list using search {string} and Add to Cart")
+	public void i_check_for_tablets_from_the_list_using_search (String TabList) throws InterruptedException {
+		int itemCount=0;
+		int colCount;
+		int divisor=6;
+		int rowVal=0;
+		int AddToCartFlag=0;
+		String tempArr[] = TabList.split(",");
+		int listSize = tempArr.length;
+		System.out.println("Temp Array size : " +listSize);
+
+		while(itemCount < listSize) {
+			WebElement eleItemSearch = driver.findElement(By.xpath("//input[@type=\"search\"]"));
+			eleItemSearch.sendKeys(tempArr[itemCount]);
+			System.out.println("eleItemSearch.sendKeys(tempArr[itemCount])");
+			
+			try {
+				List<WebElement> tableData = driver.findElements(By.xpath("//table[@id='productListTable']/tbody//td"));
+				System.out.println("Item Count : " +itemCount);
+				colCount = 0;
+
+				for(WebElement data: tableData) {
+					colCount++;
+					System.out.println("Row count : " +colCount);
+					if(data.getText().equalsIgnoreCase(tempArr[itemCount])) {
+						System.out.println(data.getText());
+						System.out.println(tempArr[itemCount]);
+						AddToCartFlag=1;
+					}else {
+						if((colCount%divisor) == 0 && AddToCartFlag ==1) {	
+							System.out.println("Column Count Value : "+colCount);
+							rowVal = colCount/divisor;
+							WebElement eleAddToCart = driver.findElement(By.xpath("(//a[@class=\"btn btn-success\"])["+ rowVal +"]"));
+							eleAddToCart.click();
+							AddToCartFlag=0;
+							itemCount++;
+							Thread.sleep(2000);
+							WebElement eleContShopping = driver.findElement(By.xpath("//a[@class='btn btn-warning']"));
+							eleContShopping.click();
+							Thread.sleep(2000);
+							Select objSelect = new Select(driver.findElement(By.xpath("//Select[@name='productListTable_length']")));
+							objSelect.selectByVisibleText("ALL");
+						}
+					}
+				}
+				
+			}catch(StaleElementReferenceException e) {
+				
+			} 
+		}
+	}
+
+	
 	@Then("I should see total Item count with Value")
 	public void i_should_see_total_Item_count_with_Value() throws InterruptedException {
 		WebElement eleLoginUser = driver.findElement(By.linkText("Kavita Nigam"));
