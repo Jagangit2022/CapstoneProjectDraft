@@ -24,6 +24,7 @@ public class ManageProductSteps {
 		WebElement eleLoginUser = driver.findElement(By.linkText("Vikas Kashyap"));
 		String LoginUser = eleLoginUser.getText();
 		Assert.assertEquals("Kavita Nigam", LoginUser);
+		//assertSame("Kavita Nigam", LoginUser);
 		System.out.println(LoginUser);
 	}
 	@When("I click on Manage Product")

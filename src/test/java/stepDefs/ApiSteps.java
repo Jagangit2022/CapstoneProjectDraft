@@ -1,7 +1,6 @@
 package stepDefs;
 
 
-
 import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
@@ -30,5 +29,7 @@ public class ApiSteps {
 	@Then("Response code should be {int}")
 	public void response_code_should_be(int ResponseCode) {
 		Assert.assertEquals(response.statusCode(), ResponseCode);
+		
+		//assertSame(response.statusCode(), ResponseCode);
 	}
 }
